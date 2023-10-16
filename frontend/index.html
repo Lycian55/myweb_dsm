@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="./style1.css">
+    <script src="nav.js" defer></script>
+    <script src="carousel.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="main">
+
+    <header class="primary-navigation flex">
+        <div >
+            <img class="logo" src="./pictures/profile picture dsm.png" alt="profile picture">
+        </div>
+
+        <button class="mobile-nav-toggle"  aria-controls="primary-header" aria-expanded="false"><span class="sr-only">Menu</span></button>
+
+        <nav>
+            <ul id="primary-header" data-visible="false" class="primary-header flex">
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li >
+                    <a href="collections.html">Collection</a>
+                </li>
+                <li >
+                    <a href="contact_us.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="top-container">
+        <div class="whatWeDo">
+            <h1>Kids anatomic shoes</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ab a rerum est quae, ratione excepturi nulla architecto esse aut, illo atque magnam non. Libero repudiandae suscipit enim assumenda sapiente.</p>
+        </div>
+        <div>
+            <img class="hero-image" src="./pictures/R.jpg" alt="hero-image">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="middle-container">
+      <div class="shoe">
+        <img class="shoe-picture" src="./pictures/anatomic.jpg" alt="anatomic shoe">
+        <div class="centred">
+            <h3>Anatomic shoes helping with development of the foot.</h3>
+        </div>
+      </div>
+      
+        <div class="shoe">
+            <img class="shoe-picture" src="./pictures/breathable shoe.png" alt="breathable shoe">
+            <div class="centred">
+                <h3>Made from natural materials to help the foot breath.</h3>
+            </div>
+        </div>
+   
+        <div class="shoe">
+            <img class="shoe-picture" src="./pictures/glexible.jpg" alt="flexible shoe">
+            <div class="centred">
+                <h3>Flexible sole for easier walking and running.</h3>
+            </div>
+        </div>
+    </div>
+   
+    <hr>
+
+    <div class="carousel-container">
+        <button class="carousel-button prev-button">Previous</button>
+            <div class="carousel">
+                <div class="carousel-slide active">
+                    <img  src="./pictures/DALL·E 2023-09-15 10.54.23.png" alt="Image1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./pictures/anatomic.jpg" alt="Image2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="./pictures/R.jpg" alt="Image3">
+                </div>
+            </div>
+        <button class="carousel-button next-button">Next</button>
+    </div>
+
+    <hr class="footer-hr">
+
+    <div class="footer-container">
+        <div>
+            <a class="footer-link" href="https://www.facebook.com/dsmortopedikashoes">Facebook</a>
+            <a class="footer-link" href="https://www.instagram.com/dsmortopedikashoes">Instagram</a>
+            <p class="footer-paragraph">© DSM-Ortopedika</p>
+        </div>
+    </div>
+
+</body>
+</html>
